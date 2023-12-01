@@ -1,0 +1,60 @@
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+body, h2, h4, img, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+img {
+    max-width: 200px;
+    border: 2px solid #333;
+    border-radius: 10%;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    margin: auto;
+    box-shadow: 0 3px 3px 2px black;
+    
+}
+.pascode_img {
+    width: 250px;
+    height: 250px;
+}
+
+
+.data-item {
+    font-size: 18px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
